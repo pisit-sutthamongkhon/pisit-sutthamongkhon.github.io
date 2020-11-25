@@ -29,7 +29,13 @@
       vegaEmbed("#vis", spec, embedOpt)
         .catch(error => showError(el, error));
     })(vegaEmbed);
-
+<style>
+form.vega-bindings {
+  position: absolute;
+  left: 0px;
+  top: -8px;
+}
+</style>
   </script>
 </body>
 </html>
